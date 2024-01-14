@@ -75,7 +75,7 @@ const Colorpalette = () => {
         </div>
         <button onClick={() => handlecolor()}>Generate Palette</button>
         <span>Or just press the "Spacebar" to generate new palettes.</span>
-        <div className="cpbtn">Click to copy individual color. Press "C" to copy the palette</div>
+        <div className="cpbtn">Click to copy individual color. Press "C" to copy the palettes.</div>
       </div>
     </>
   );

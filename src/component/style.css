@@ -5,9 +5,7 @@
     display: flex;
     height:100vh;
     flex-direction: column;
-
     align-items: center;
-  
     text-align: center;
 
 }
@@ -18,7 +16,6 @@
     color: #202142;
 }
 .color button{
-    display: block;
     margin-top: 3rem;
     padding: 1rem 5rem;
     background-color: rgb(137, 41, 233);
@@ -27,7 +24,6 @@
     outline: none;
     border-radius: 4px;
     font-size: 17px;
-    text-transform: capitalize;
     font-family: 'Poppins', sans-serif;
 }
 .color-card{
@@ -35,7 +31,6 @@
     display: flex;
     gap: 1rem;
     justify-content: center;
-    /* align-items: center; */
     flex-wrap: wrap;
   
 }
@@ -56,7 +51,7 @@
 .inner{
   height: 250px;
   border-radius: 5px;
-  margin-bottom: .5rem;
+
 }
 span{
     margin-top: 1rem;
@@ -77,18 +72,7 @@ span{
     text-align: center;
     font-family: 'Poppins', sans-serif;
 }
-.palette{
-    padding: .7rem  1rem;
-    background-color: #152238;
-    position: absolute;
-    top: 2%;
-    right: 35%;
-    left: 35%;
-    color: white;
-    border-radius: 30px;
-    font-size: 16px;
-    text-align: center;
-}
+
 .cpbtn{
     padding: .8rem 2rem;
     background-color:rgba(255, 255, 255, 0.507);
@@ -106,9 +90,6 @@ h3{
 @media(max-width:1130px){
     .noti{
         padding: .7rem  1rem;
-
-        position: absolute;
-        top: 2%;
         right: 30%;
         left: 30%;
       
@@ -117,9 +98,6 @@ h3{
 @media(max-width:790px){
     .noti{
         padding: .7rem  1rem;
-      
-        position: absolute;
-        top: 2%;
         right: 20%;
         left: 20%;
     }
@@ -128,9 +106,6 @@ h3{
 @media(max-width:590px){
     .noti{
         padding: .7rem  1rem;
-   
-        position: absolute;
-        top: 2%;
         right: 10%;
         left: 10%;
       
@@ -140,28 +115,19 @@ h3{
 @media(max-width:400px){
     .noti{
         padding: .5rem  1rem;
-      
-        position: absolute;
-        top: 2%;
         right: 5%;
         left: 5%;
-       
     }
     .cpbtn{
         padding: .5rem 1rem;
-    
     }
     .color{
         height: 280vh;
-     
     }
 }
 @media(max-width:350px){
     .noti{
         padding: .5rem  .5rem;
-
-        position: absolute;
-        top: 2%;
         right: 2%;
         left: 2%;
      
@@ -174,9 +140,6 @@ h3{
 @media(max-width:310px){
     .noti{
         padding: .5rem  .5rem;
-       
-        position: absolute;
-        top: 2%;
         right: 1%;
         left: 1%;
       
