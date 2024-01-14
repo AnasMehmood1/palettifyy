@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital,wght@0,200;0,400;0,600;0,700;0,800;1,500;1,600;1,800&family=Poppins:ital,wght@0,400;0,600;1,500&display=swap');
 .color{
     width: 100%;
     padding-top: 5rem;
@@ -14,6 +14,8 @@
 .head{
     font-size: 30px;
     font-weight: 600;
+    font-family: 'Poppins', sans-serif;
+    color: #202142;
 }
 .color button{
     display: block;
@@ -26,6 +28,7 @@
     border-radius: 4px;
     font-size: 17px;
     text-transform: capitalize;
+    font-family: 'Poppins', sans-serif;
 }
 .color-card{
     width: 100%;
@@ -58,27 +61,29 @@
 span{
     margin-top: 1rem;
     font-size: 17px;
-    font-weight: 600;
+    font-weight: 400;
+    font-family: 'Poppins', sans-serif;
 }
 .noti{
     padding: .7rem  1rem;
     background-color: #152238;
     position: absolute;
     top: 2%;
-    right: 36%;
-    left: 36%;
+    right: 35%;
+    left: 35%;
     color: white;
     border-radius: 30px;
     font-size: 16px;
     text-align: center;
+    font-family: 'Poppins', sans-serif;
 }
 .palette{
     padding: .7rem  1rem;
     background-color: #152238;
     position: absolute;
     top: 2%;
-    right: 36%;
-    left: 36%;
+    right: 35%;
+    left: 35%;
     color: white;
     border-radius: 30px;
     font-size: 16px;
@@ -91,6 +96,7 @@ span{
     color: black;
     font-size: 16px;
     margin-top: 2rem;
+    font-family: 'Poppins', sans-serif;
 }
 h3{
     cursor: pointer;

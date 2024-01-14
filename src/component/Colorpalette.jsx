@@ -37,12 +37,30 @@ const Colorpalette = () => {
       console.error('Clipboard API not available.');
     }
   }
+  const handlekeypress = (event) => {
+    if (event.keyCode === 32) {
+      handlecolor();
+    } else if (event.keyCode === 67) {
+      handlecopy(color.join('\n'));
+      setCopiedColorByC(color.join('\n'));
+      setTimeout(() => {
+        setCopiedColorByC(null);
+      }, 1500);
+    }
+  }
 
- 
+  useEffect(() => {
+    window.addEventListener('keydown', handlekeypress);
+    return () => {
+      window.removeEventListener('keydown', handlekeypress);
+    }
+  }, [color])
+    
   return (
     <>
       <div className="color">
-        {(copiedColor && !copiedColorByC) && <p className='noti'>Color {copiedColor} copied to your clipboard</p>}
+       
+ {(copiedColor && !copiedColorByC) && <p className='noti'>Color {copiedColor} copied to your clipboard</p>}
         {copiedColorByC && <p className='noti'>Palette copied to your clipboard</p>}
         <p className="head">Color palette generator</p>
         <div className="color-card">
@@ -57,7 +75,7 @@ const Colorpalette = () => {
         </div>
         <button onClick={() => handlecolor()}>Generate Palette</button>
         <span>Or just press the "Spacebar" to generate new palettes.</span>
-        <div className="cpbtn">Click to copy individual color. Press "c" to copy the palette</div>
+        <div className="cpbtn">Click to copy individual color. Press "C" to copy the palette</div>
       </div>
     </>
   );
