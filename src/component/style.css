@@ -106,122 +106,83 @@ h3{
 @media(max-width:1130px){
     .noti{
         padding: .7rem  1rem;
-        background-color: #152238;
+
         position: absolute;
         top: 2%;
         right: 30%;
         left: 30%;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
+      
     }
 }
 @media(max-width:790px){
     .noti{
         padding: .7rem  1rem;
-        background-color: #152238;
+      
         position: absolute;
         top: 2%;
         right: 20%;
         left: 20%;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
     }
     
 }
 @media(max-width:590px){
     .noti{
         padding: .7rem  1rem;
-        background-color: #152238;
+   
         position: absolute;
         top: 2%;
         right: 10%;
         left: 10%;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
+      
     }
    
 }
 @media(max-width:400px){
     .noti{
         padding: .5rem  1rem;
-        background-color: #152238;
+      
         position: absolute;
         top: 2%;
         right: 5%;
         left: 5%;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
+       
     }
     .cpbtn{
         padding: .5rem 1rem;
-        background-color:rgba(255, 255, 255, 0.507);
-        border-radius: 40px;
-        color: black;
-        font-size: 16px;
-        margin-top: 2rem;
+    
     }
     .color{
-        width: 100%;
-        padding-top: 3rem;
-        display: flex;
         height: 280vh;
-        flex-direction: column;
-    
-        align-items: center;
-        background-color: lightgray;
-        text-align: center;
-        padding-bottom: 10rem;
+     
     }
 }
 @media(max-width:350px){
     .noti{
         padding: .5rem  .5rem;
-        background-color: #152238;
+
         position: absolute;
         top: 2%;
         right: 2%;
         left: 2%;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
+     
     }
     .cpbtn{
         padding: .5rem 1rem;
-        background-color:rgba(255, 255, 255, 0.507);
-        border-radius: 40px;
-        color: black;
-        font-size: 16px;
-        margin-top: 2rem;
+      
     }
 }
 @media(max-width:310px){
     .noti{
         padding: .5rem  .5rem;
-        background-color: #152238;
+       
         position: absolute;
         top: 2%;
         right: 1%;
         left: 1%;
-        color: white;
-        border-radius: 30px;
-        font-size: 16px;
-        text-align: center;
+      
     }
     .cpbtn{
         padding: .5rem 1rem;
-        background-color:rgba(255, 255, 255, 0.507);
-        border-radius: 40px;
-        color: black;
-        font-size: 16px;
-        margin-top: 2rem;
+       
     }
 }
